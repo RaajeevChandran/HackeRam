@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:camcoder/screens/snippets_screen.dart';
-import 'package:camcoder/widgets/photo_code_app_bar.dart';
+import 'package:hackeram/widgets/appbar.dart';
 
 import 'constants.dart';
 import 'screens/edit_screen.dart';
@@ -23,7 +22,7 @@ class _MainScreenState extends State<MainScreen> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Constants.backgroundColor,
-        appBar: PhotoCodeAppBar(),
+        appBar: CustomAppBar(),
         body: _getPage(this._currentPage),
         bottomNavigationBar: CodeBottomNavigationBar(
           setPage: (position) {

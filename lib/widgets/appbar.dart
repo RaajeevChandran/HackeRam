@@ -3,11 +3,11 @@ import 'package:hive/hive.dart';
 
 import '../constants.dart';
 
-class PhotoCodeAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
   final bool showBackButton;
   final String title;
 
-  PhotoCodeAppBar({this.showBackButton = false, this.title = "CamCoder"});
+  CustomAppBar({this.showBackButton = false, this.title = "CamCoder"});
 
   @override
   Widget build(BuildContext context) {

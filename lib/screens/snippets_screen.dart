@@ -3,8 +3,7 @@ import 'dart:io';
 import 'package:date_format/date_format.dart';
 import 'package:flutter/material.dart';
 import 'package:getflutter/getflutter.dart';
-import 'package:camcoder/models/snippet.dart';
-import 'package:camcoder/models/snippets.dart';
+import 'package:hackeram/models/snippet.dart';
 import 'package:hive/hive.dart';
 import 'package:lottie/lottie.dart';
 

@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:camcoder/models/snippet.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:getflutter/getflutter.dart';
+import 'package:hackeram/models/snippet.dart';
 import 'package:hive/hive.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:rich_code_editor/exports.dart';

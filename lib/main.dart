@@ -4,7 +4,6 @@ import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:camcoder/screens/edit_screen.dart';
 import 'package:hive/hive.dart';
 import 'package:image_picker/image_picker.dart';
 import "package:http/http.dart" as http;
